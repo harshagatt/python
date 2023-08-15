@@ -1,5 +1,5 @@
 #create a function to do mathematical function based on 2 incoming parameters
-def compute_response(variable1,variable2):
+def compute_response(variable1,variable2,operation):
 
   if operation == 1:
     print("Addition of", variable1 , variable2, "is =", variable1 + variable2, end='\n')
@@ -21,4 +21,4 @@ if operation >4 or operation <1 :
 else:
   variable1 = int(input("Enter your first number :"))
   variable2 = int(input("Enter your second number :"))  
-  compute_response(variable1,variable2)
+  compute_response(variable1,variable2,operation)
